@@ -1,0 +1,3 @@
+ While making components function should always start with capital and for best practice also keep file name starting with capital letter. 
+
+React Fragment allows you to group multiple elements without adding an extra node (like a div) to the DOM. It’s useful for returning multiple elements from a component without affecting the layout or styling.
