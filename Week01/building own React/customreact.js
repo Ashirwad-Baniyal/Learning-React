@@ -18,7 +18,7 @@ function customRender(reactElement,container){
 const reactElement ={
     type:'a',
     props:{
-        href:'https://google.com',
+        href:'https://www.wikipedia.org/',
         target:'_blank'
     },
     children:'Click me to visit google'
