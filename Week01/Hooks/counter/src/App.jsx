@@ -10,19 +10,22 @@ function App() {
      whenever we use useState (it can take any data type and function(not good to use)) and return an array first one is the value that usestate contain second one is a function that will be applied on it.
 */
   const addValue=()=>{
-    // counter++;
+    if(counter<20){
     setCounter(++counter);
      console.log(counter);
   }
+}
   const removeValue=()=>{
+    if(counter>0){
     setCounter(--counter);
      console.log(counter);
   }
-
+  }
   return (
     <>
      <h1>Chai aur react</h1>
      <h2>Counter Value:{counter}</h2>
+     <h3>Minimum limit:0 | Maximum limit:20</h3>
      <button 
      onClick={addValue}
      >Add Value</button>
